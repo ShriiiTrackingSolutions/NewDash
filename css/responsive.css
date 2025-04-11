@@ -1,0 +1,204 @@
+:root {
+  --blue: #2a6fdd;
+  --Black: #1a1a1a;
+  --grey: #74787c;
+  --green: #17be74;
+  --lightGrey: #e8e8e8;
+  --BgBlack: #0b0301;
+  --Orange: #f94d1c;
+  --Bglight: #f7f5f4;
+  --BgDark: #0f0f0f;
+  --offwhite: #f3f3f3;
+}
+
+@media only screen and (min-width: 1920px) {}
+
+@media (max-width: 1399.98px) {
+   
+ }
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+ 
+}
+
+
+
+@media (max-width: 1199.98px) { 
+   
+
+.headerRight .btnMedium{
+  display: none;
+}
+.headerRight .Makeacall {
+  display: none !important;
+}
+
+.display-3 {
+  font-size: 60px;
+}
+.secH {
+  font-size: 36px;
+}
+
+.footerIllustrations{
+display: none;
+}
+
+#Mynavbar {
+  position: fixed;
+  background-color: #ffffff;
+  left: 0;
+  top: 0;
+  text-wrap: nowrap;
+  padding-top: 30px;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+  z-index: 444;
+}
+.navbarToggleBtn {
+  display: block;
+  background-color: #ffffff;
+  -webkit-box-shadow: 4px 4px 23px -1px rgba(0,0,0,0.26);
+-moz-box-shadow: 4px 4px 23px -1px rgba(0,0,0,0.26);
+box-shadow: 4px 4px 23px -1px rgba(0, 0, 0, 0.26);
+}
+#Mynavbar.slideNav {
+  transform: translateX(0%);
+  z-index: 444;
+}
+.navCloseBtn {
+  display: block;
+}
+ }
+
+@media (max-width: 991.98px) { 
+
+  .headerRight .Makeacall {
+    display: flex !important;
+  }
+  .headerRight .btnOffcanvas{
+    display: none;
+  }
+.navbar-nav button{
+  display: none;
+} 
+
+
+.navbar-expand-lg .navbar-nav .dropdown-mega .dropdown-menu {
+  position: static;
+  width: 100%;
+}
+.dropdown-menu li {
+  width: 100%;
+}
+
+.megaHeding::after {
+  content: "\f107";
+  font-size: 14px;
+  margin-left: 4px;
+  line-height: 1;
+  font-weight: 900;
+  font-family: "Font Awesome 6 free";
+  border: none;
+}
+
+.megaHeding.active{
+  color: var(--blue);
+}
+
+.iconHedContent:nth-child(2)::after{
+  display: none;
+}
+.iconHedContent:nth-child(3)::after{
+  display: none;
+}
+.servicesColums .container>.row{
+  row-gap: 40px;
+}
+.whatOurClient  .container>.row{
+row-gap: 40px;
+}
+footer .container>.row{
+  gap: 0%;
+} 
+
+ }
+
+ @media screen and (max-width: 912px) {
+ 
+  .mega-content .row{
+    flex-direction: column;
+}
+
+
+
+ }
+
+
+@media (max-width: 767.98px) {
+
+ 
+.display-3 {
+  font-size: 32px;
+}
+.secH {
+  font-size: 28px;
+}
+.therdH {
+  font-size: 22px;
+}
+.fourthH {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.defaultPadding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footerPage {
+ justify-content: center;
+ text-align: center;
+}
+.LogInBanner .container>.row{
+  row-gap: 24px;
+}
+
+ }
+
+@media (max-width: 575.98px) {
+  footer {
+    text-align: center;
+  }
+  footer .col-lg-4 a {
+    margin: auto;
+  }
+  footer .col-lg-4>a {
+    margin: auto;
+    margin-bottom: 16px;
+  }
+  footer .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer .fIcons {
+    justify-content: center;
+  }
+  footer .row {
+    row-gap: 40px;
+  }
+
+  footer .form-check .form-check-input {
+    float: none;
+}
+
+
+
+ }
+
+@media only screen and (max-width: 479px) {
+
+}

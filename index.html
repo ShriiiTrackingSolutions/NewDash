@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="image/cropped-favicon-192x192.png" />
+    <title>Dashboard - Shriii Tracking Solutions</title>
+
+    <!-- <link fetchpriority="high" rel="preload"  href="image/BannerImg1.webp" as="image" type="image/png" /> -->
+
+
+
+    <!-- Preload -->
+
+    <link  rel="preload" as="style"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"/>
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"/>
+    <link rel="preload" as="style" href="css/responsive.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <link rel="preconnect" href="https://kit.fontawesome.com" />
+    <link rel="dns-prefetch" href="https://kit.fontawesome.com" />
+
+    <script src="https://kit.fontawesome.com/52ca9e0df4.js" crossorigin="anonymous" ></script>
+
+  </head>
+
+  <body class="dashboard">
+
+
+
+    <section class="dashboardSection ">
+      <div class="container-fluid">
+<div class="row">
+    <!-- Aside Menubar Start -->
+    <aside id="Mynavbar" class="col-auto">
+      <img class="Profile2" src="image/ShriiTrackingSolutionLogo.png" alt="Profile picture">
+
+      <div class="MenuWrap">
+        <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+          <a class="p-1 rounded" href="#simple-list-item-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g class="home-outline"><path fill="currentColor" fill-rule="evenodd" d="M10.033 2.883a3 3 0 0 1 3.934 0l7 6.076A3 3 0 0 1 22 11.225V19a3 3 0 0 1-3 3h-3.5a1.5 1.5 0 0 1-1.5-1.5v-6.813h-4V20.5A1.5 1.5 0 0 1 8.5 22H5a3 3 0 0 1-3-3v-7.775a3 3 0 0 1 1.033-2.266zm2.623 1.51a1 1 0 0 0-1.312 0l-7 6.077a1 1 0 0 0-.344.755V19a1 1 0 0 0 1 1h3v-6.313a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2V20h3a1 1 0 0 0 1-1v-7.775a1 1 0 0 0-.345-.755z" class="Vector (Stroke)" clip-rule="evenodd"/></g></svg>Home</a>
+
+          <a class="p-1 rounded" href="#simple-list-item-2"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16"><path fill="currentColor" d="m7.603 13.267l-.215.707C4.619 13.729 3 11.84 3 10v-.5A1.5 1.5 0 0 1 4.5 8h4.54c-.39.275-.733.613-1.012 1H4.5a.5.5 0 0 0-.5.5v.5c0 1.338 1.241 2.785 3.484 2.978q.054.147.119.29M8 1.5A2.75 2.75 0 1 1 8 7a2.75 2.75 0 0 1 0-5.5m0 1A1.75 1.75 0 1 0 8 6a1.75 1.75 0 0 0 0-3.5m7 9a3.5 3.5 0 0 1-5.197 3.062l-1.392.423a.318.318 0 0 1-.397-.397l.424-1.391A3.5 3.5 0 1 1 15 11.5M10.5 10a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm-.5 2.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0-.5.5"/></svg>About</a>
+
+          <a class="p-1 rounded" href="#simple-list-item-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.5 10.265V6h15v4.265c0 3.175 0 4.762-.976 5.749c-.977.986-2.548.986-5.69.986h-1.667c-3.143 0-4.714 0-5.69-.986c-.977-.986-.977-2.574-.977-5.749M4.5 6l.721-1.538c.56-1.194.84-1.79 1.406-2.126C7.194 2 7.92 2 9.375 2h5.25c1.454 0 2.181 0 2.748.336s.847.932 1.406 2.126L19.5 6m-9 3h3M12 19.5V22m0-2.5H7m5 0h5m-10 0H4.5A2.5 2.5 0 0 0 2 22m5-2.5V22m10-2.5h2.5A2.5 2.5 0 0 1 22 22m-5-2.5V22" color="currentColor"/></svg>Products</a>
+
+          <a class="p-1 rounded" href="#simple-list-item-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M18 8a2 2 0 1 1-4 0a2 2 0 0 1 4 0"/><path fill="currentColor" fill-rule="evenodd" d="M11.943 1.25h.114c2.309 0 4.118 0 5.53.19c1.444.194 2.584.6 3.479 1.494c.895.895 1.3 2.035 1.494 3.48c.19 1.411.19 3.22.19 5.529v.088c0 1.909 0 3.471-.104 4.743c-.104 1.28-.317 2.347-.795 3.235q-.314.586-.785 1.057c-.895.895-2.035 1.3-3.48 1.494c-1.411.19-3.22.19-5.529.19h-.114c-2.309 0-4.118 0-5.53-.19c-1.444-.194-2.584-.6-3.479-1.494c-.793-.793-1.203-1.78-1.42-3.006c-.215-1.203-.254-2.7-.262-4.558Q1.25 12.792 1.25 12v-.058c0-2.309 0-4.118.19-5.53c.194-1.444.6-2.584 1.494-3.479c.895-.895 2.035-1.3 3.48-1.494c1.411-.19 3.22-.19 5.529-.19m-5.33 1.676c-1.278.172-2.049.5-2.618 1.069c-.57.57-.897 1.34-1.069 2.619c-.174 1.3-.176 3.008-.176 5.386q0 .793.002 1.495c.008 1.874.05 3.246.238 4.303c.184 1.035.498 1.7 1.005 2.207c.57.57 1.34.897 2.619 1.069c1.3.174 3.008.176 5.386.176s4.086-.002 5.386-.176c1.279-.172 2.05-.5 2.62-1.069c.21-.21.381-.442.524-.707c.332-.616.523-1.44.621-2.645s.099-2.707.099-4.653c0-2.378-.002-4.086-.176-5.386c-.172-1.279-.5-2.05-1.069-2.62c-.57-.569-1.34-.896-2.619-1.068c-1.3-.174-3.008-.176-5.386-.176s-4.086.002-5.386.176" clip-rule="evenodd"/><path fill="currentColor" d="m20.607 19.146l-2.83-2.547a3 3 0 0 0-3.732-.225l-.299.21a2 2 0 0 1-2.564-.222l-4.29-4.29a2.3 2.3 0 0 0-3.14-.104l-1.002.876l.002.65c.008 1.875.05 3.247.238 4.304c.185 1.035.498 1.7 1.005 2.207c.57.57 1.34.897 2.619 1.069c1.3.174 3.008.176 5.386.176s4.087-.002 5.387-.176c1.278-.172 2.049-.5 2.618-1.069a3 3 0 0 0 .602-.859" opacity="0.4"/></svg>Gallery</a>
+
+          <a class="p-1 rounded" href="#simple-list-item-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor"><path d="M4 10c0-3.771 0-5.657 1.172-6.828S8.229 2 12 2h1.5c3.771 0 5.657 0 6.828 1.172S21.5 6.229 21.5 10v4c0 3.771 0 5.657-1.172 6.828S17.271 22 13.5 22H12c-3.771 0-5.657 0-6.828-1.172S4 17.771 4 14z"/><path d="M9.8 11.974c-.427-.744-.633-1.351-.757-1.967c-.184-.91.237-1.8.933-2.368c.295-.24.632-.158.806.155l.393.705c.311.558.467.838.436 1.134c-.03.296-.24.537-.66 1.02zm0 0a10.36 10.36 0 0 0 3.726 3.726m0 0c.744.427 1.351.633 1.967.757c.91.184 1.8-.237 2.368-.933c.24-.295.158-.632-.155-.806l-.704-.393c-.56-.311-.839-.467-1.135-.436c-.296.03-.537.24-1.02.66zM5 6H2.5M5 12H2.5M5 18H2.5"/></g></svg>Contacts</a>
+
+          <div class="NavActive"></div>
+        </div>
+      </div>
+      <button onclick="navClose();" class="navCloseBtn" type="button" aria-label="Toggle navigation">
+        <span class="NavCloseIcon"><i class="fa-regular fa-circle-xmark"></i></span>
+      </button>
+    </aside>
+    <!-- Aside Menubar Start -->
+  
+    <main class="col scrollspy-example" data-bs-spy="scroll" data-bs-target="#simple-list-example"
+    data-bs-offset="0" data-bs-smooth-scroll="true" tabindex="0">
+
+    <button onclick="navAppear();" class="navbarToggleBtn" type="button" aria-label="Toggle navigation">
+      <span class="NavToggleIcon"><i class="fa-solid fa-bars"></i></span>
+    </button>
+
+    <!-- Home section start -->
+    <section class="Home DefaultPadding" id="simple-list-item-1">
+      <div class="container-fluid">
+        <form class="needs-validation dashboard" id="dashboardForm" novalidate="">
+          <nav class="navpillsWrap">
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Website Headers</button>
+              <button class="nav-link" id="nav-Product-tab" data-bs-toggle="tab" data-bs-target="#nav-Product" type="button" role="tab" aria-controls="nav-Product" aria-selected="false">Product Cards</button>
+              <button class="nav-link" id="nav-Slider-tab" data-bs-toggle="tab" data-bs-target="#nav-Slider" type="button" role="tab" aria-controls="nav-Slider" aria-selected="false">Slider Images</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+              <div class="row p-4">
+                <div class="col-md-7">
+                  <label class="form-label therdH">Website Titles</label>
+                  <div id="websiteTitlesContainer">
+                      <div class="row title-input-row align-items-center mb-2">
+                        <div class="col-md-4">
+                          <div class="bannerImg">
+                            <img class="bannerImg-preview img-fluid rounded" src="image/bannerPre.webp" alt="Banner Preview">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="dargDropImg">
+                            <input type="file" class="banner-img-input form-control" accept="image/*">
+                            <div class="dragdropText">
+                              <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+                              <div class="fileicon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16">
+                                  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1"></path>
+                                    <path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1"></path>
+                                    <path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1"></path>
+                                    <path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1"></path>
+                                  </g>
+                                </svg>
+                              </div>
+                              <span>Drag &amp; drop your files here</span>
+                              <span>or click to upload </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-10">
+                          <input type="text" class="form-control website-title-input" placeholder="Enter website title">
+                        </div>
+                        <div class="col-md-2 text-end">
+                          <button type="button" class="btn btn-danger btn-sm delete-title-btn">
+                            <i class="fa-solid fa-trash" aria-hidden="true"></i> Delete </button>
+                        </div>
+                      </div>
+                   
+                  </div>
+                  <button type="button" class="btn btn-secondary mt-2" id="addTitleBtn"> Add New Title </button>
+                </div>
+                <div class="col-md-4">
+                  <div class="input-group has-validation">
+                    <label for="logo-input" class="form-label therdH logoLabel">Logo File</label>
+                    <div class="logoPreview ">
+                      <img id="preview-logo" src="image/LogoPlaceholder.webp" alt="Logo Preview">
+                    </div>
+                    <div class="dargDropImg">
+                      <input type="file" id="logo-input">
+                      <div class="dragdropText">
+                        <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+                        <div class="fileicon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16">
+                            <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1" />
+                              <path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1" />
+                              <path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1" />
+                              <path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1" />
+                            </g>
+                          </svg>
+                        </div>
+                        <span>Drag &amp; drop your files here</span>
+                        <span">or click to upload</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7 ">
+                  <div class="hrDevider"></div>
+                  <label for="storyImg" class="form-label therdH">Our Story Image</label>
+<div class="row align-items-center">
+  <div class="col-md-4">
+    <div class="storyImgWra">
+      <img id="story-preview" class="img-fluid rounded" src="image/descImagePre.webp" alt="description Preview">
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="dargDropImg">
+      <input type="file" class=" form-control" id="storyImg" accept="image/*">
+      <div class="dragdropText">
+        <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+        <div class="fileicon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16">
+            <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1"></path>
+              <path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1"></path>
+              <path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1"></path>
+              <path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1"></path>
+            </g>
+          </svg>
+        </div>
+        <span>Drag &amp; drop your files here</span>
+        <span>or click to upload </span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12">
+    <label for="OurStory-input" class="form-label therdH">Our Story Discription</label>
+    <textarea class="form-control" id="OurStory-input" placeholder="Enter Our Story description"></textarea>
+  </div>
+</div>
+
+
+                </div>
+                <div class="col-md-5">
+                  <div class="col-md-12">
+                    <label for="phoneNu" class="form-label therdH">Phone No.</label>
+                    <input type="number" id="phoneNu" placeholder="Enter your phone number.">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="location" class="form-label therdH">Location</label>
+                    <input type="text" id="location" placeholder="Enter your location">
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-Product" role="tabpanel" aria-labelledby="nav-Product-tab" tabindex="0">
+              <div class="row p-4">
+                <div class="col-12 productCardSec">
+                  <div class="input-group has-validation">
+                    <div class="row ">
+                      <h2 class="secH">Product Card 1</h2>
+                      <div class="col-md-4">
+                        <div class="prodImgPre">
+                          <img id="previewProdImg" src="image/productImgPreview.webp" alt="Logo Preview">
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="dargDropImg">
+                          <input  type="file" id="ProdImg">
+                          <div class="dragdropText">
+                            <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+                            <div class="fileicon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1"/><path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1"/><path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1"/><path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1"/></g></svg>
+                            </div>
+                            <span>Drag &amp; drop your files here</span>
+                            <span">or click to upload</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label for="prodTitle" class="form-label therdH">Product 1 title</label>
+                        <input type="text" id="prodTitle" placeholder="Enter your product title">
+                      </div>
+                      <div class="col-12">
+                        <label for="prodDisc" class="form-label therdH">Product 1 Description</label>
+                        <textarea class="form-control" id="prodDisc" placeholder="Enter product description"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 productCardSec">
+                  <div class="input-group has-validation">
+                    <div class="row ">
+                      <h2 class="secH">Product Card 2</h2>
+                      <div class="col-md-4">
+                        <div class="prodImgPre">
+                          <img id="previewProdImg2" src="image/productImgPreview.webp" alt="Logo Preview">
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="dargDropImg">
+                          <input  type="file" id="ProdImg2">
+                          <div class="dragdropText">
+                            <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+                            <div class="fileicon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1"/><path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1"/><path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1"/><path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1"/></g></svg>
+                            </div>
+                            <span>Drag &amp; drop your files here</span>
+                            <span">or click to upload</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label for="prodTitle2" class="form-label therdH">Product 2 title</label>
+                        <input type="text" id="prodTitle2" placeholder="Enter your product title">
+                      </div>
+                      <div class="col-12">
+                        <label for="prodDisc2" class="form-label therdH">Product 2 Description</label>
+                        <textarea class="form-control" id="prodDisc2" placeholder="Enter product description"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 productCardSec">
+                  <div class="input-group has-validation">
+                    <div class="row ">
+                      <h2 class="secH">Product Card 3</h2>
+                     
+                      <div class="col-md-4">
+                        <div class="prodImgPre">
+                          <img id="previewProdImg3" src="image/productImgPreview.webp" alt="Logo Preview">
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="dargDropImg">
+                          <input  type="file" id="ProdImg3">
+                          <div class="dragdropText">
+                            <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+                            <div class="fileicon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1"/><path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1"/><path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1"/><path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1"/></g></svg>
+                            </div>
+                            <span>Drag &amp; drop your files here</span>
+                            <span">or click to upload</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label for="prodTitle3" class="form-label therdH">Product 3 title</label>
+                        <input type="text" id="prodTitle2" placeholder="Enter your product title">
+                      </div>
+                      <div class="col-12">
+                        <label for="prodDisc3" class="form-label therdH">Product 3 Description</label>
+                        <textarea class="form-control" id="prodDisc3" placeholder="Enter product description"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-Slider" role="tabpanel" aria-labelledby="nav-Slider-tab" tabindex="0">
+              <div class="row p-4">
+                <div class="col-12">
+                  <label class="form-label therdH">Slider Images</label>
+                  <div id="sliderImagesContainer" class="w-100">
+                    <!-- First Slider Input -->
+                    <div class="row slider-upload align-items-center mb-3">
+                      <div class="col-md-4">
+                        <div class="sliderPre">
+                          <img class="slider-preview img-fluid rounded" src="image/sliderImgPre.webp" alt="Slider Preview">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="dargDropImg">
+                          <input type="file" class="slider-img-input form-control" accept="image/*">
+                          <div class="dragdropText">
+                            <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+                            <div class="fileicon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1"></path><path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1"></path><path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1"></path><path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1"></path></g></svg>
+                            </div>
+                            <span>Drag &amp; drop your files here</span>
+                            <span">or click to upload
+                          </span"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 text-end">
+                        <button type="button" class="btn btn-danger btn-sm delete-slider-btn">
+                          <i class="fa-solid fa-trash" aria-hidden="true"></i> Delete </button>
+                      </div>
+                    </div>
+                  <div class="row slider-upload align-items-center mb-3">
+    <div class="col-md-4">
+                        <div class="sliderPre">
+                          <img class="slider-preview img-fluid rounded" src="image/sliderImgPre.webp" alt="Slider Preview">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="dargDropImg">
+                          <input type="file" class="slider-img-input form-control" accept="image/*">
+                          <div class="dragdropText">
+                            <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+                            <div class="fileicon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1"></path><path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1"></path><path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1"></path><path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1"></path></g></svg>
+                            </div>
+                            <span>Drag &amp; drop your files here</span>
+                            <span">or click to upload
+                          </span"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 text-end">
+                        <button type="button" class="btn btn-danger btn-sm delete-slider-btn">
+                          <i class="fa-solid fa-trash" aria-hidden="true"></i> Delete </button>
+                      </div>
+    </div><div class="row slider-upload align-items-center mb-3">
+    <div class="col-md-4">
+                        <div class="sliderPre">
+                          <img class="slider-preview img-fluid rounded" src="image/sliderImgPre.webp" alt="Slider Preview">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="dargDropImg">
+                          <input type="file" class="slider-img-input form-control" accept="image/*">
+                          <div class="dragdropText">
+                            <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+                            <div class="fileicon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1"></path><path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1"></path><path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1"></path><path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1"></path></g></svg>
+                            </div>
+                            <span>Drag &amp; drop your files here</span>
+                            <span">or click to upload
+                          </span"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 text-end">
+                        <button type="button" class="btn btn-danger btn-sm delete-slider-btn">
+                          <i class="fa-solid fa-trash" aria-hidden="true"></i> Delete </button>
+                      </div>
+    </div><div class="row slider-upload align-items-center mb-3">
+    <div class="col-md-4">
+                        <div class="sliderPre">
+                          <img class="slider-preview img-fluid rounded" src="image/sliderImgPre.webp" alt="Slider Preview">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="dargDropImg">
+                          <input type="file" class="slider-img-input form-control" accept="image/*">
+                          <div class="dragdropText">
+                            <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+                            <div class="fileicon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1"></path><path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1"></path><path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1"></path><path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1"></path></g></svg>
+                            </div>
+                            <span>Drag &amp; drop your files here</span>
+                            <span">or click to upload
+                          </span"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 text-end">
+                        <button type="button" class="btn btn-danger btn-sm delete-slider-btn">
+                          <i class="fa-solid fa-trash" aria-hidden="true"></i> Delete </button>
+                      </div>
+    </div></div>
+                  <button type="button" id="addSliderBtn" class="btn btn-secondary mt-2">Add Another Slider Image</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mt-3 ">
+            <button class="btnMedium submitBtn" onclick="updateContent()">
+              <span>Save Changes <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+        </form>
+        <div id="alertBox"></div>
+      </div>
+    </section>
+    <!-- Home section End -->
+
+  </main>
+</div>
+      </div>
+    </section>
+
+
+
+
+   
+     <!-- whatsapp FAB icon -->
+     <div class="fab-container">
+      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=6354710794"><span class="sr-only">Whatsapp</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="59.54px" height="60px" viewBox="0 0 256 258">
+          <defs>
+            <linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%">
+              <stop offset="0%" stop-color="#1faf38" />
+              <stop offset="100%" stop-color="#60d669" />
+            </linearGradient>
+            <linearGradient id="logosWhatsappIcon1" x1="50%" x2="50%" y1="100%" y2="0%">
+              <stop offset="0%" stop-color="#f9f9f9" />
+              <stop offset="100%" stop-color="#fff" />
+            </linearGradient>
+          </defs>
+          <path fill="url(#logosWhatsappIcon0)" d="M5.463 127.456c-.006 21.677 5.658 42.843 16.428 61.499L4.433 252.697l65.232-17.104a123 123 0 0 0 58.8 14.97h.054c67.815 0 123.018-55.183 123.047-123.01c.013-32.867-12.775-63.773-36.009-87.025c-23.23-23.25-54.125-36.061-87.043-36.076c-67.823 0-123.022 55.18-123.05 123.004" />
+          <path fill="url(#logosWhatsappIcon1)" d="M1.07 127.416c-.007 22.457 5.86 44.38 17.014 63.704L0 257.147l67.571-17.717c18.618 10.151 39.58 15.503 60.91 15.511h.055c70.248 0 127.434-57.168 127.464-127.423c.012-34.048-13.236-66.065-37.3-90.15C194.633 13.286 162.633.014 128.536 0C58.276 0 1.099 57.16 1.071 127.416m40.24 60.376l-2.523-4.005c-10.606-16.864-16.204-36.352-16.196-56.363C22.614 69.029 70.138 21.52 128.576 21.52c28.3.012 54.896 11.044 74.9 31.06c20.003 20.018 31.01 46.628 31.003 74.93c-.026 58.395-47.551 105.91-105.943 105.91h-.042c-19.013-.01-37.66-5.116-53.922-14.765l-3.87-2.295l-40.098 10.513z" />
+          <path fill="#fff" d="M96.678 74.148c-2.386-5.303-4.897-5.41-7.166-5.503c-1.858-.08-3.982-.074-6.104-.074c-2.124 0-5.575.799-8.492 3.984c-2.92 3.188-11.148 10.892-11.148 26.561s11.413 30.813 13.004 32.94c1.593 2.123 22.033 35.307 54.405 48.073c26.904 10.609 32.379 8.499 38.218 7.967c5.84-.53 18.844-7.702 21.497-15.139c2.655-7.436 2.655-13.81 1.859-15.142c-.796-1.327-2.92-2.124-6.105-3.716s-18.844-9.298-21.763-10.361c-2.92-1.062-5.043-1.592-7.167 1.597c-2.124 3.184-8.223 10.356-10.082 12.48c-1.857 2.129-3.716 2.394-6.9.801c-3.187-1.598-13.444-4.957-25.613-15.806c-9.468-8.442-15.86-18.867-17.718-22.056c-1.858-3.184-.199-4.91 1.398-6.497c1.431-1.427 3.186-3.719 4.78-5.578c1.588-1.86 2.118-3.187 3.18-5.311c1.063-2.126.531-3.986-.264-5.579c-.798-1.593-6.987-17.343-9.819-23.64" />
+        </svg> </a>
+  </div>
+
+    <!-- Call FAB icon -->
+    <div class="Call-fab-container">
+      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="tel:+91 6354710794"><span class="sr-only">Call</span>
+        <img style="height: 60px; width: 60px;" src="image/phone-call.png" alt="phone icon">
+      </a>
+  </div>
+
+
+
+    <!-- footer section start  -->
+
+    <section class="copyrightSection">
+      <div class="container">
+        <p>Copyright @<span class="year"> </span> All Rights Reserved By <a href="http://www.shriiitrackingsolution.in/" target="_blank"><b>Shriii Tracking Solution.</b></a></p>
+      </div>
+    </section>
+
+    <!-- footer section end  -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jwt-decode@3.1.2/build/jwt-decode.min.js"></script>
+
+    <script>
+      document.querySelector(".year").innerHTML= new Date().getFullYear()
+      function navAppear(){
+    document.querySelector("#Mynavbar").classList.add("slideNav");
+    event.stopPropagation();
+}
+function navClose(){
+    document.querySelector("#Mynavbar").classList.remove("slideNav");
+}
+    </script>
+
+
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (() => {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    const forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.from(forms).forEach(form => {
+      form.addEventListener('submit', event => {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+  })();
+</script>
+
+
+<script>
+   const titleContainer = document.getElementById("websiteTitlesContainer");
+  const addTitleBtn = document.getElementById("addTitleBtn");
+
+  // Add New Title Input
+  addTitleBtn.addEventListener("click", function () {
+    const titleRow = document.createElement("div");
+    titleRow.classList.add("row", "title-input-row", "align-items-center", "mb-2");
+
+    titleRow.innerHTML = `
+
+                        <div class="col-md-4">
+                          <div class="bannerImg">
+                            <img class="bannerImg-preview img-fluid rounded" src="image/bannerPre.webp" alt="Banner Preview">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="dargDropImg">
+                            <input type="file" class="banner-img-input form-control" accept="image/*">
+                            <div class="dragdropText">
+                              <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+                              <div class="fileicon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16">
+                                  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1"></path>
+                                    <path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1"></path>
+                                    <path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1"></path>
+                                    <path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1"></path>
+                                  </g>
+                                </svg>
+                              </div>
+                              <span>Drag &amp; drop your files here</span>
+                              <span>or click to upload </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-10">
+                          <input type="text" class="form-control website-title-input" placeholder="Enter website title">
+                        </div>
+                        <div class="col-md-2 text-end">
+                          <button type="button" class="btn btn-danger btn-sm delete-title-btn">
+                            <i class="fa-solid fa-trash" aria-hidden="true"></i> Delete </button>
+                        </div>
+                 
+    `;
+
+    titleContainer.appendChild(titleRow);
+  });
+
+    // Preview Uploaded Image
+    titleContainer.addEventListener("change", function (event) {
+    if (event.target.classList.contains("banner-img-input")) {
+      const fileInput = event.target;
+      const file = fileInput.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          fileInput.closest(".title-input-row").querySelector(".bannerImg-preview").src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+      }
+    }
+  });
+
+
+  // Delete Title Input Row
+  titleContainer.addEventListener("click", function (event) {
+    if (
+      event.target.classList.contains("delete-title-btn") ||
+      event.target.closest(".delete-title-btn")
+    ) {
+      const titleRow = event.target.closest(".title-input-row");
+      if (titleRow) titleRow.remove();
+    }
+  });
+
+  const sliderContainer = document.getElementById("sliderImagesContainer");
+  const addSliderBtn = document.getElementById("addSliderBtn");
+
+  // Add New Slider Image + Title Input
+  addSliderBtn.addEventListener("click", function () {
+    const sliderRow = document.createElement("div");
+    sliderRow.classList.add("row", "slider-upload", "align-items-center", "mb-3");
+
+    sliderRow.innerHTML = `
+    <div class="col-md-4">
+                        <div class="sliderPre">
+                          <img class="slider-preview img-fluid rounded" src="image/sliderImgPre.webp" alt="Slider Preview">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="dargDropImg">
+                          <input type="file" class="slider-img-input form-control" accept="image/*">
+                          <div class="dragdropText">
+                            <!-- <img alt="File Icon" class=" fileIcon" src="https://img.icons8.com/dusk/64/000000/file.png" /> -->
+                            <div class="fileicon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="#eed49f" d="M11.5 6A1.5 1.5 0 0 1 10 7.5A1.5 1.5 0 0 1 8.5 6A1.5 1.5 0 0 1 10 4.5A1.5 1.5 0 0 1 11.5 6" stroke-width="1"></path><path stroke="#a6da95" d="M7.5 13.5L11 10c.5-.5 1.5-.5 2 0l1.5 1.5" stroke-width="1"></path><path stroke="#a6da95" d="m1.5 9.5l2-2C4 7 5 7 5.5 7.5l4 4" stroke-width="1"></path><path stroke="#7dc4e4" d="M3 2.5h10c.83 0 1.5.67 1.5 1.5v8c0 .83-.67 1.5-1.5 1.5H3A1.5 1.5 0 0 1 1.5 12V4c0-.83.67-1.5 1.5-1.5" stroke-width="1"></path></g></svg>
+                            </div>
+                            <span>Drag &amp; drop your files here</span>
+                            <span">or click to upload
+                          </span"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 text-end">
+                        <button type="button" class="btn btn-danger btn-sm delete-slider-btn">
+                          <i class="fa-solid fa-trash" aria-hidden="true"></i> Delete </button>
+                      </div>
+    `;
+
+    sliderContainer.appendChild(sliderRow);
+  });
+
+  // Preview Uploaded Image
+  sliderContainer.addEventListener("change", function (event) {
+    if (event.target.classList.contains("slider-img-input")) {
+      const fileInput = event.target;
+      const file = fileInput.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          fileInput.closest(".slider-upload").querySelector(".slider-preview").src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+      }
+    }
+  });
+
+  // Delete Slider Image Block
+  sliderContainer.addEventListener("click", function (event) {
+    if (
+      event.target.classList.contains("delete-slider-btn") ||
+      event.target.closest(".delete-slider-btn")
+    ) {
+      const sliderRow = event.target.closest(".slider-upload");
+      if (sliderRow) sliderRow.remove();
+    }
+  }); 
+
+      // Preview the uploaded image before saving
+      document.getElementById("logo-input").addEventListener("change", function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          document.getElementById("preview-logo").src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+      }
+    }); 
+
+
+      // Preview the uploaded image before saving
+      document.getElementById("storyImg").addEventListener("change", function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          document.getElementById("story-preview").src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+      }
+    }); 
+    
+
+    function setupImagePreview(fileInputId, previewImgId) {
+    const fileInput = document.getElementById(fileInputId);
+    const previewImg = document.getElementById(previewImgId);
+
+    fileInput.addEventListener("change", function () {
+      const file = this.files[0];
+      if (file) {
+        const reader = new FileReader();
+
+        reader.onload = function (e) {
+          previewImg.src = e.target.result;
+        };
+
+        reader.readAsDataURL(file);
+      }
+    });
+  }
+
+  // Setup previews for all product cards
+  setupImagePreview("ProdImg", "previewProdImg");
+  setupImagePreview("ProdImg2", "previewProdImg2");
+  setupImagePreview("ProdImg3", "previewProdImg3");
+
+  
+
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (() => {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    const forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.from(forms).forEach(form => {
+      form.addEventListener('submit', event => {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+  })();
+</script>
+<script>
+   const userToken = localStorage.getItem("token");
+
+if (userToken) {
+  const decodedToken = jwt_decode(userToken);
+  const userId = decodedToken.id;
+  console.log("User Id:", userId);
+} else {
+  console.log("Token not found");
+}
+</script>
+
+<script>
+ const API_BASE_URL = "http://localhost:5000"; 
+
+// Token Check
+
+
+
+
+// Update Content Function
+async function updateContent() {
+  const title = document.querySelectorAll(".website-title-input").value.trim();
+  const description = document.getElementById("OurStory-input").value.trim();
+  const logoFile = document.getElementById("logo-input").files[0];
+  const alertBox = document.getElementById("alertBox");
+
+  
+
+  if (!title || !description) {
+    alertBox.innerHTML = "<div style='color:red;'>Title and description are required!</div>";
+    return;
+  }
+
+  const formData = new FormData();
+  formData.append("title", title);
+  formData.append("description", description);
+  if (logoFile) {
+    formData.append("logo", logoFile);
+  }
+
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/site/content`, {
+      method: "PUT",
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+      body: formData,
+    });
+
+    const result = await response.json();
+
+    if (response.ok) {
+      alertBox.innerHTML = "<div style='color:green;'>Content updated successfully!</div>";
+    } else {
+      alertBox.innerHTML = `<div style='color:red;'>${result.message || "Update failed"}</div>`;
+    }
+  } catch (error) {
+    console.error("Error updating content:", error);
+    alertBox.innerHTML = "<div style='color:red;'>An error occurred!</div>";
+  }
+}
+
+</script>
+
+
+  </body>
+</html>
